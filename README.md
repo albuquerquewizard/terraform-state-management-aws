@@ -1,5 +1,7 @@
 # Secure Terraform State Management on AWS
 
+![Terraform State Architecture](img/architecture.gif)
+
 This repository documents a production-style Terraform state management workflow implemented on AWS using S3 and DynamoDB.
 
 The project focuses on secure remote state storage, state locking, safe state refactoring, and recovery from state lock scenarios commonly encountered in real-world Terraform operations.
