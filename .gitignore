@@ -1,0 +1,96 @@
+########################################
+# Terraform
+########################################
+
+# Terraform working directories
+**/.terraform/*
+.terraform.lock.hcl
+
+# Terraform state & plans
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.plan
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Terraform variables (secrets)
+*.tfvars
+*.tfvars.json
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI config & cache
+.terraformrc
+terraform.rc
+.terraform.d/
+.terraform.d/**
+
+########################################
+# AWS credentials & config (CRITICAL)
+########################################
+
+.aws/
+.aws/config
+.aws/credentials
+
+########################################
+# SSH / Private keys (CRITICAL)
+########################################
+
+*.pem
+*.key
+myTerraformKey.pem
+
+########################################
+# Node / npm
+########################################
+
+.npm/
+.npm/_cacache/
+.npm/_logs/
+.npm/_update-notifier-last-checked
+
+node_modules/
+
+########################################
+# NVM
+########################################
+
+.nvm/
+
+########################################
+# Shell / local environment
+########################################
+
+.bashrc
+.wget-hsts
+
+########################################
+# Logs
+########################################
+
+*.log
+
+########################################
+# OS
+########################################
+
+.DS_Store
+Thumbs.db
+
+########################################
+# Editor / IDE
+########################################
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
